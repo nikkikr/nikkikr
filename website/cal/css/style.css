@@ -1,0 +1,146 @@
+/*************嚙賡�橒蕭嚙踝蕭嚙踝蕭�𡵆扯亚嚙�***************/
+hr.mhr {
+	border: 1px dashed #2E9FCC;
+}
+/*************嚙賡�橒蕭嚙踝蕭�𠱃嚙踢�頣蕭�橘蕭嚙�*****************
+	"SimSun"-------------�麯��嚙踝蕭
+  "Microsoft YaHei"----�𤊄�阸嚙賜螂嚙賣𠓗嚙� 
+******************************************/ 
+/*************嚙踝蕭嚙踝蕭***************/ 
+a {
+	text-decoration:none;
+	color:#3377ff;
+	font-family:"Microsoft YaHei", Sans-Serif;
+}
+
+a:hover {
+	text-decoration:none;
+	color:#B576FF;
+	font-family:"Microsoft YaHei", Sans-Serif;
+}
+
+/*************���蕭嚙踝蕭�駠��𩐳��㕑麞嚙質��蕭�橘蕭嚙�***************/ 
+p.indenttext {
+	font-size: 90%;
+	font-family: "Microsoft YaHei", Sans-Serif;
+	color: #111111;
+	line-height: 1.8em;
+	text-indent:2em;
+}
+
+/*************���蕭嚙踝蕭嚙賡�嘥�吔蕭�橘蕭嚙�***************/ 
+p.center {
+	font-size: 90%;
+	font-family: "Microsoft YaHei", Sans-Serif;
+	color: #111111;
+	line-height: 1.8em;
+	text-align: center;
+}
+
+/*************嚙踢井�蕭鋆行�諹�嚙賣慾嚙踢糂湛蕭�橘蕭嚙�***************/ 
+p.normal,label,p.filter-table {
+	font-size: 100%;
+	font-family: "Microsoft YaHei", Sans-Serif;
+	color: #111111;
+	line-height: 1.5em;
+}
+p.normal br {
+	display: block;
+	margin: 1.2em;
+	content: " ";
+}
+/*************嚙踝蕭藂�胯�嚙踝蕭皛𡄯蕭��𡜐蕭�橘蕭嚙�***************/ 
+p.title1 {
+	font-size: 140%;
+	font-weight : 800;
+	font-family: "Microsoft YaHei", Sans-Serif;
+	color: #1F4499;
+	text-align: center;
+}
+/*************嚙踝蕭嚙踢𡵆抒��甅嚙踝蕭嚙賜�橘蕭嚙�***************/ 
+p.title2 {
+	font-size: 120%;
+	font-weight : 700;
+	font-family: "Microsoft YaHei", Sans-Serif;
+	color: #1F3489;
+	text-align: center;
+}
+/*************�𠽌撅賂蕭臐�梹蕭�甅嚙踝蕭嚙賜�橘蕭嚙�***************/ 
+span.title3 {
+	font-weight : 900;
+	color: #111111;
+}
+/*************嚙踝蕭藂�胯��鶽�𧦠嚙踢冗賂蕭�橘蕭嚙�***************/ 
+span.comment {
+	color: #000000;
+}
+/*************嚙踝蕭嚙賣�𡄯蕭�橘蕭嚙�***************/ 
+span.top {
+	color: #0050FF;
+}
+/*************嚙踝蕭嚙賣誥隤剁蕭薴钟�䴴�橘蕭嚙�***************/ 
+span.instead {
+	color: #111111;
+}
+/*************���甅嚙賣�𡄯蕭�橘蕭嚙�***************/ 
+span.general {
+	color: #111111;
+}
+/*************嚙賡做嚙踝蕭閫�嚙賜�橘蕭嚙�***************/ 
+span.newguy {
+	color: #111111;
+}
+
+span.jump{
+	color: #333333;
+	font-family:"Microsoft YaHei", Sans-Serif;
+	font-size: 90%;
+}
+
+
+span.bold7 {
+	font-weight:700;
+}
+
+/*************table***************/ 
+table {
+	border:solid #999;
+	border-width:1px 0px 0px 1px;
+	border-spacing:0;
+	font-family: "Microsoft YaHei", Sans-Serif;
+	color: #111111;
+	line-height: 1.5em;
+}
+
+td {
+	border:solid #999;
+	border-width:0px 1px 1px 0px;
+	border-spacing:0;
+}
+
+tr:nth-child(2n+1) {
+	background: rgba(234, 242, 250, 0.5);
+	font-size: 90%;
+	text-align : left;
+	text-align : center;
+}
+tr:nth-child(2n) {
+	background: rgba(219, 229, 248, 0.5);
+	font-size: 90%;
+	text-align : left;
+	text-align : center;
+}
+
+tr:nth-child(1) {
+	font-size: 100%;
+	font-weight : 700;
+	text-align : center;
+	background-color: rgba(191, 219, 255, 0.9);
+	color:232425;
+}
+
+/*************嚙賭���𥟇妬嚙踝蕭***************/ 
+body {
+    /*overflow-y:hidden;*/
+    margin-bottom:150px;
+}
