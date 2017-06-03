@@ -563,7 +563,7 @@ function addBonusInfo(base, weight, tag) {
 //'繁星4-喝茶聽課': [addBonusInfo('A', 1, "현대중국풍"), addBonusInfo('A', 1, '아샤고전')],
 //'繁星5-星宿俠女':[addBonusInfo('A', 1, "괴도")],
 //'繁星6-朱雀翼火蛇': [addBonusInfo('A', 1, "현대중국풍"), addBonusInfo('A', 1, '아샤고전')],
-//'繁星4-姻緣之宿': [addBonusInfo('A', 1, "현대중국풍"), addBonusInfo('A', 1, '아샤고전')],
+  '繁星4-전생의 인연 [姻緣之宿]': [addBonusInfo('A', 1, "현대중국풍"), addBonusInfo('A', 1, '아샤고전')],
 //'繁星5-神鳥為烏': [addBonusInfo('A', 1, "괴도")],
 //'繁星7-諸星歸位': [addBonusInfo('A', 1, "현대중국풍"), addBonusInfo('A', 1, '아샤고전')],
 //'黑蔷薇1-신비한 선지자':[addBonusInfo('SS', 1, "애니멀룩")],
