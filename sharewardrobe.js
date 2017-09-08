@@ -5,15 +5,15 @@
 	var result = [];
 	for (var t in category) {
 		var type = category[t];
-		if (type.indexOf('饰品') >= 0) {
-			if (type == '饰品-頭飾')
-				type = "饰品";
+		if (type.indexOf('飾品') >= 0) {
+			if (type == '頭飾·髮飾')
+				type = "飾品";
 			else
 				continue;
 		}
-		if (type.indexOf('袜子') >= 0) {
-			if (type == '袜子-襪子')
-				type = "袜子";
+		if (type.indexOf('襪子') >= 0) {
+			if (type == '襪子-襪子')
+				type = "襪子";
 			else
 				continue;
 		}
@@ -42,47 +42,47 @@
 }
 
 function typeToggleChar(source){
-	if(source  == '发型')
+	if(source  == '髮型')
 		return 'a';
-	if(source  == '连衣裙')
+	if(source  == '連身裙')
 		return 'b';
 	if(source  == '外套')
 		return 'c';
-	if(source  == '上装')
+	if(source  == '上衣')
 		return 'd';
-	if(source  == '下装')
+	if(source  == '下著')
 		return 'e';
-	if(source  == '袜子')
+	if(source  == '襪子')
 		return 'f';
 	if(source  == '鞋子')
 		return 'g';
-	if(source  == '妆容')
+	if(source  == '妝容')
 		return 'h';
-	if(source  == '饰品')
+	if(source  == '飾品')
 		return 'i';
-	if(source  == '荧光之灵')
+	if(source  == '螢光之靈')
 		return 'j';
 	
 	if(source  == 'a')
-		return '发型';
+		return '髮型';
 	if(source  == 'b')
-		return '连衣裙';
+		return '連身裙';
 	if(source  == 'c')
 		return '外套';
 	if(source  == 'd')
-		return '上装';
+		return '上衣';
 	if(source  == 'e')
-		return '下装';
+		return '下著';
 	if(source  == 'f')
-		return '袜子';
+		return '襪子';
 	if(source  == 'g')
 		return '鞋子';
 	if(source  == 'h')
-		return '妆容';
+		return '妝容';
 	if(source  == 'i')
-		return '饰品';
+		return '飾品';
 	if(source  == 'j')
-		return '荧光之灵';
+		return '螢光之靈';
 }
 
 function getWardrobe() {
