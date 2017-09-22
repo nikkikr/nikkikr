@@ -46,7 +46,7 @@ function rowBiguse(piece, isShoppingCart, index) {
 	var longid = (render(csv[1]).length>3 ? typeid.replace("0","") : typeid) + render(csv[1]);
 	$imagetd.click(function(){
 		$("#imgModel").show();
-		$("#imgModel").css("background-image", "url(http://seal100x.github.io/nikkiup2u3_img/" +  longid + ".png)");
+		$("#imgModel").css("background-image", "url(http://nikkikr.github.io/nikkikr_img/" +  longid + ".png)");
 		$("#imgInfo").text(piece.name);
 	});
 	$lineTop.append($imagetd);
