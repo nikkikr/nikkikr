@@ -132,36 +132,36 @@ legend {
 	border-color:#ffb291;
 	border:#ffb291;
 }
-.pink:hover{
+.Orange:hover{
 	background-color:#e99465;
 	border-color:#e99465;
 }
-.purple{
+.red{
 	background-color:#c87b61;
 	border-color:#c87b61;	
 	border:#c87b61;
 }
-.purple:hover{
+.red:hover{
 	background-color:#da4f36;
 	border-color:#da4f36;
 	border:1px;
 }
-.pink2{
+.Orange2{
 	background-color:#ffc4a4;
 	border-color:#ffc4a4;
 }
-.pink2:hover{
+.Orange2:hover{
 	background-color:#fdb787;
 	border-color:#fdb787;
 }
-.pink3{
+.Orange3{
 	background-color:#ffc4a4;
 	border-color:#ffc4a4;
 	border-radius:2px;
 	-moz-border-radius: 15px;     
 	-webkit-border-radius: 15px; 
 }
-.pink3:hover{
+.Orange3:hover{
 	background-color:#fdbd87;
 	border-color:#fdbd87;
 	-moz-border-radius: 15px;     
