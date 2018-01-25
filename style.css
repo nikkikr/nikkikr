@@ -127,12 +127,12 @@ legend {
 .fliter_option{
 	color: #ff8f52;
 }
-.pink{
+.orange{
 	background-color:#ffb291;
 	border-color:#ffb291;
 	border:#ffb291;
 }
-.Orange:hover{
+.orange:hover{
 	background-color:#e99465;
 	border-color:#e99465;
 }
@@ -146,22 +146,22 @@ legend {
 	border-color:#da4f36;
 	border:1px;
 }
-.Orange2{
+.orange2{
 	background-color:#ffc4a4;
 	border-color:#ffc4a4;
 }
-.Orange2:hover{
+.orange2:hover{
 	background-color:#fdb787;
 	border-color:#fdb787;
 }
-.Orange3{
+.orange3{
 	background-color:#ffc4a4;
 	border-color:#ffc4a4;
 	border-radius:2px;
 	-moz-border-radius: 15px;     
 	-webkit-border-radius: 15px; 
 }
-.Orange3:hover{
+.orange3:hover{
 	background-color:#fdbd87;
 	border-color:#fdbd87;
 	-moz-border-radius: 15px;     
