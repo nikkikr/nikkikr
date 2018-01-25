@@ -84,7 +84,7 @@
   border-radius: 0.2em;
 }
 .table-td.name.own .button{
-  background-color: #bfb;
+  background-color: #ffd0bb;
 }
 .table-td.name.search {
   float: left;
@@ -92,8 +92,8 @@
 }
 .table-td.name.searchCate .button {
   color: #fff;
-  background-color: #337ab7;
-  border-color: #2e6da4;
+  background-color: #ffd9cc;
+  border-color: #ffb6a4;
   cursor: default;
 }
 
@@ -111,12 +111,12 @@
   z-index: 255;
   white-space: pre;
   text-align: left;
-  background-color: #bfb;
+  background-color: #ffd0bb;
 }
 [tooltip]:hover:after {
   display : inline-block;
   padding: 10px;
 }
 .table-td.deps [tooltip]:after {
-  background-color: #ddf;
+  background-color: #ffdfdd;
 }
