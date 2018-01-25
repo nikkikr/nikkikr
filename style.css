@@ -1,6 +1,7 @@
 body{
 	margin: 1em;
-	font-family: "Helvetica Neue", Helvetica, Microsoft Yahei, Hiragino Sans GB, WenQuanYi Micro Hei, sans-serif;
+	font-family: "Helvetica Neue", Helvetica, Microsoft Yahei, Hiragino Sans GB, WenQuanYi Micro Hei, sans-serif,微软雅黑;	
+	
 }
 hr{
 	clear: both;
@@ -17,6 +18,7 @@ input[type="checkbox"]{
 }
 .checkbox{	
    display: inline-block;
+   
 }
 .table{
 	margin-bottom: 0;
@@ -32,12 +34,14 @@ input[type="checkbox"]{
 fieldset {
     padding: .35em .625em .75em;
     border: 1px solid silver;
+	border-color: #ffc4a4;
 }
 legend {
 	border: 0;
     width: auto;
     margin-bottom:0;
     font-size: 14px;
+	border-color: #ffc4a4;
 }
 /**********duoshuo start**************/
 #ds-thread #ds-reset .ds-post-self {
@@ -50,6 +54,7 @@ legend {
 .fliter_form_div_left{
 	float: left;
 	margin-right: 10px;
+	border-color: #ffc4a4;
 }
 @media ( max-width : 1020px){
 	.fliter_form_div_left{
@@ -58,6 +63,7 @@ legend {
 }
 #filtersTop select{
 	height:34px;
+	border-color:#ffc4a4;
 }
 
 #theme:hover, #theme:active, #theme:focus,
@@ -70,17 +76,21 @@ legend {
 	margin: 5px 0;
 	overflow: hidden;
 	display: flex;
+	border-color: #ffc4a4;
 }
 .weightContainer * {
 	float:left;
 	border-radius: 0;
 	line-height: 1.2;
+	border-color: #ffc4a4;
 }
 .weightContainer > :first-child {
 	border-radius: 4px 0 0 4px;
+	border-color: #ffc4a4;
 }
 .weightContainer input:last-of-type {
 	border-radius: 0 4px 4px 0;
+	border-color: #ffc4a4;
 }
 .weightContainer label.active{
 	font-weight: bold;
@@ -89,7 +99,7 @@ legend {
 	width: 7em;
 	padding-left: 3px;
 	border: 1px solid transparent;
-	border-color: #ccc;
+	border-color: #ffc4a4;
 }
 .weightContainer input#tag1weight, .weightContainer input#tag2weight{
 	width: 3em;	
@@ -97,10 +107,10 @@ legend {
 .weightContainer select{
 	max-width: 65px;
 	border: 1px solid transparent;
-	border-color: #ccc;
+	border-color: #ffc4a4;
 }
 .weightContainer .highscore-link{
-	color: grey;
+	color: #e2bcff;
 	font-style: italic;
 	font-weight: bold;
 	cursor: pointer;
@@ -111,18 +121,60 @@ legend {
 	display: none;
 }
 .weightContainer .highscore-link.active{
-	color: DeepPink;
+	color: #ff6714;
 }
 
 .fliter_option{
+	color: #ff8f52;
 }
-
+.pink{
+	background-color:#ffb291;
+	border-color:#ffb291;
+	border:#ffb291;
+}
+.pink:hover{
+	background-color:#e99465;
+	border-color:#e99465;
+}
+.purple{
+	background-color:#c87b61;
+	border-color:#c87b61;	
+	border:#c87b61;
+}
+.purple:hover{
+	background-color:#da4f36;
+	border-color:#da4f36;
+	border:1px;
+}
+.pink2{
+	background-color:#ffc4a4;
+	border-color:#ffc4a4;
+}
+.pink2:hover{
+	background-color:#fdb787;
+	border-color:#fdb787;
+}
+.pink3{
+	background-color:#ffc4a4;
+	border-color:#ffc4a4;
+	border-radius:2px;
+	-moz-border-radius: 15px;     
+	-webkit-border-radius: 15px; 
+}
+.pink3:hover{
+	background-color:#fdbd87;
+	border-color:#fdbd87;
+	-moz-border-radius: 15px;     
+	-webkit-border-radius: 15px; 
+}
 /************************/
 #category_container div {
 	display:none;
+	color:#ff930d;
 }
 #category_container div.active {
 	display:block;
+	color:#963d00;
 }
 .filterlabel{
 	margin-right: 0.5em;
@@ -138,23 +190,23 @@ legend {
 	font-weight:bold;
 }	
 .not_f{
-	color: green;
+	color: #ffe4c9;
 	font-weight:bold;
 }	
 .gongzhuSkill{
-	color: fuchsia;
+	color: #ffb400;
 	font-weight:bold;
 }	
 .normalSkill{
-	color: grey;
+	color: #ffe2c9;
 	font-weight:bold;
 }	
 .hintInfo{
-	color: teal;
+	color: #e09870;
 	font-weight:bold;
 }
 span.badge{
-	background: SlateGray;
+	background: #ffb68e;
 }
 .gotop{
 	font-family: 'Glyphicons Halflings';
@@ -173,34 +225,44 @@ red{
 	font-weight:bold;		
 }
 #advanced_options_span, #front_filter_span{
+	color: #ffc4a4;
 	display: none;
+
 }
 .ds-powered-by, .ds-dialog-footer{
 	display: none;
 }
 
-
 div.top{
 	float: left;
 	padding: 1em;
 	width: 100%;
+
 }
 div.facet {
+}
+div.tit{
+	font-size:24px;
+	font-style:微软雅黑;
+	font-family: bold;
+	background-color:#ffcda4;
+	text-align:center;
 }
 div.title{		
   max-width: 800px;		
 }
 div.fliter {
 	width:50%;
-	float: left;	
+	float: left;
 }
 div.announcement {
 	width:45%;
 	float: right;
 	border: 1px solid lightgrey;
 	padding: 5px;
-	max-height: 280px;
+	max-height: 300px;
 	overflow: auto;
+	border-color: #ffc4a4;
 }
 div.announcement hr{
 	margin-top: 8px;
@@ -210,7 +272,7 @@ div#showmore {
 	text-align: center;
 	padding: 0.6em;
 	border-bottom: 1px solid #f3f0f6;
-	color: #0984ff;
+	color: #c73c00;
 	cursor: pointer;
 }
 .FloatMenu {
@@ -236,7 +298,7 @@ div#showmore {
   padding:3px 8px;
   margin:8px;
   text-decoration:none;
-  background-color:#AAFDE7; /*可改顏色*/
+  background-color:#fdd8aa; /*可改顏色*/
   position:relative; 
 }
 
@@ -246,7 +308,7 @@ div#showmore {
 }
 
 .FloatMenu span:hover{
-    background:#DDFEC8; /*可改顏色*/
+    background:#fefec8; /*可改顏色*/
     border:1px solid #94a0b4;
     color:#000
 }
